@@ -1,0 +1,103 @@
+/* Regra geral para resetar estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Estilo da fonte para todo o corpo da página */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Estilo do container principal */
+  .container {
+    width: 800px; /* largura do container */
+    margin: 0 auto; /* Centraliza o container na página */
+    padding: 20px; /* espaçamento interno do container */
+  }
+  
+  h1 {
+    text-align: center; 
+  }
+  
+  .form-container {
+    margin-bottom: 20px; /* margem inferior do formulário */
+  }
+  
+  /* Estilo do formulário */
+  #form-produto {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  /* Estilo das labels do formulário */
+  #form-produto label {
+    margin-bottom: 5px; 
+  }
+  
+  /* Estilo dos campos de input do formulário */
+  #form-produto input {
+    width: 300px; /* largura dos campos de input */
+    padding: 5px; /* espaçamento interno dos campos de input */
+    margin-bottom: 10px; /* margem inferior dos campos de input */
+    border: 1px solid #ccc; /* borda dos campos de input */
+  }
+  
+  /* Estilo do campo de seleção do formulário */
+  #form-produto select {
+    width: 300px; /* largura do campo de seleção */
+    padding: 5px; /* espaçamento interno do campo de seleção */
+    margin-bottom: 10px; /* margem inferior do campo de seleção */
+    border: 1px solid #ccc; /* borda do campo de seleção */
+  }
+  
+  /* Estilo do botão de salvar do formulário */
+  #form-produto button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    cursor: pointer;
+  }
+  
+  /* Estilo da tabela de produtos */
+  #tabela-produtos {
+    width: 100%; /* largura da tabela */
+    border-collapse: collapse; /* estilo das bordas da tabela */
+  }
+  
+  /* Estilo das células da tabela */
+  #tabela-produtos th, td {
+    border: 1px solid #ccc; /* borda das células da tabela */
+    padding: 5px; /* espaçamento interno das células da tabela */
+    text-align: center; /* Centraliza o conteúdo das células da tabela */
+  }
+  
+  /* Estilo das ações na tabela */
+  .acoes {
+    text-align: center; /* Centraliza as ações na tabela */
+  }
+  
+  /* Estilo dos botões de editar e excluir */
+  .editar, .excluir {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilo do botão de editar */
+  .editar {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  /* Estilo do botão de excluir */
+  .excluir {
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+  }
